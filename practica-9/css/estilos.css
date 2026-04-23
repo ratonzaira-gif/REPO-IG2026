@@ -1,0 +1,57 @@
+/* color de fondo de pagina */
+body {
+    background-color: rgb(70, 1, 1);
+}
+
+/* selector de clase para h1 y h2 (index) */
+.rojo {
+    color: rgb(39, 0, 0);
+    background-color: rgb(131, 39, 0);
+    /* color de fondo del texto */
+}
+
+h2 {
+    font-family: Arial;
+    text-align: center;
+    /* alinea los textos */
+}
+
+/* selector de clase para parrafo (sinopsis)*/
+.mostaza {
+    color: rgb(185, 158, 0);
+    font-family: Arial;
+    /* fuente de texto */
+    text-align: center;
+}
+
+/* selector de etiquetas para h1 (sinopsis) */
+h1 {
+    color: rgb(163, 81, 0);
+    font-family: Arial;
+}
+
+/* selector de etiquetas para todos los h4 (elenco, actores principales) */
+h4 {
+    color: rgb(163, 81, 0);
+    font-family: Arial;
+}
+
+/* selector de etiquetas para cada punto en il (elenco) */
+ul {
+    color: rgb(110, 75, 40);
+    font-family: Arial;
+}
+
+/* etiqueta ID (selector de identificador) para parrafo (elenco) */
+#marron {
+    color: rgb(110, 75, 40);
+    font-family: Arial;
+}
+
+/* etiqueta ID (selector de identificador) para parrafo (premios) */
+#rojo {
+    color: rgb(163, 81, 0);
+    background-color: rgb(105, 1, 1);
+    font-family: Arial;
+    text-align: center;
+}
