@@ -1,0 +1,115 @@
+/* --- Nueva Hoja de Estilos: Estética Gótico Digital --- */
+
+/* Configuración General */
+body {
+    background-color: #050505; /* Negro casi total para resaltar imágenes */
+    color: #f0f0f0; /* Blanco hueso para evitar fatiga visual */
+    font-family: 'Special+Elite', Courier, serif; /* Fuente tipo máquina de escribir */
+    margin: 0;
+    padding: 40px;
+    line-height: 1.8;
+}
+
+/* Encabezados con estilo Cinzel */
+h1, h2, h4 {
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+h1 {
+    color: #e60000; /* Rojo vibrante */
+    font-size: 2.5rem;
+    border-bottom: 1px double #333;
+    padding-bottom: 20px;
+    text-shadow: 0 0 10px rgba(230, 0, 0, 0.5);
+}
+
+/* Selector de clase para h1 y h2 (index) */
+.rojo {
+    color: #ffffff;
+    background-color: #8b0000; /* Rojo sangre oscuro */
+    padding: 15px;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+/* Selector de clase para párrafos (sinopsis) */
+.mostaza {
+    color: #cccccc;
+    text-align: justify;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.03); /* Fondo sutilmente translúcido */
+    border-left: 3px solid #e60000;
+}
+
+/* Estilo para las listas y el elenco */
+ul {
+    max-width: 800px;
+    margin: 30px auto;
+    list-style: none; /* Quitamos los puntos estándar */
+}
+
+ul li {
+    padding: 10px;
+    border-bottom: 1px solid #1a1a1a;
+    transition: all 0.3s ease;
+}
+
+ul li:hover {
+    background: #121212;
+    padding-left: 20px;
+    color: #e60000;
+}
+
+/* Identificadores específicos */
+#marron {
+    color: #a8a8a8;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+#rojo {
+    color: #fff;
+    background-color: #1a0000;
+    border: 1px solid #e60000;
+    padding: 25px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: inset 0 0 15px #000;
+}
+
+/* Estilo para enlaces (Navegación) */
+a {
+    color: #e60000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #e60000;
+}
+
+/* Ajuste para imágenes */
+img {
+    display: block;
+    margin: 40px auto;
+    border: 4px solid #1a1a1a;
+    filter: grayscale(30%);
+    transition: filter 0.5s;
+}
+
+img:hover {
+    filter: grayscale(0%);
+
+/* Declaracion de uso de IA para mejorar CSS */
+
+}
