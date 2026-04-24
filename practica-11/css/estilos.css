@@ -1,0 +1,36 @@
+/* color de fondo de pagina */
+body {
+    background-color: rgb(218, 197, 148);
+}
+
+.marron {
+    color: rgb(163, 81, 0);
+    font-family: Arial;
+    text-align: center;
+    /* class index h1 y h2, sinopsis h1 y h2, elenco h1, premios h1, banda sonora h1 */
+}
+
+.marron-fondo {
+    color: rgb(218, 197, 148);
+    background-color: rgb(63, 21, 2);
+    font-family: Arial;
+    /* class sinopsis parrafo y elenco parrafo, premios parrafo */
+}
+
+.premios {
+    color: rgb(163, 81, 0);
+    font-family: Arial;
+    /* id  */
+}
+
+ul {
+    color: rgb(63, 21, 2);
+    font-family: Arial;
+    /* etiqueta todas las listas li */
+}
+
+footer {
+    color: rgb(63, 21, 2);
+    font-family: Arial;
+    /* todos los pies de las paginas */
+}
