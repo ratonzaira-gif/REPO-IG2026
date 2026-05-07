@@ -1,0 +1,143 @@
+body {
+    font-family: 'Lato', Arial, sans-serif;
+    margin: 3%;
+    padding: 5px; 
+}
+
+.contenedor {
+    color: rgb(118, 222, 231);
+    background-color: rgb(1, 10, 47);
+    border: 4px solid rgb(1, 10, 47);
+    border-radius: 3px;
+    border-width: 6px;
+    border-block-width: 6px;
+    font-size: 40px;
+    text-align: center;
+    max-width: 58rem;
+    margin: auto;
+    font-family: 'Lato', Arial, sans-serif;
+}
+
+h2, h3, h4 {
+    color: rgb(118, 222, 231);
+    background-color: rgb(1, 10, 47);
+    border: 4px solid rgb(1, 10, 47);
+    border-radius: 3px;
+    border-width: 6px;
+    border-block-width: 6px;
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Lato', Arial, sans-serif;
+}
+
+p,
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 10, 47);
+    border: 4px solid rgb(1, 10, 47);
+    border-radius: 3px;
+    border-width: 6px;
+    border-block-width: 7px;
+    font-size: 17px;
+    text-align: justify;
+    font-family: 'Lato', Arial, sans-serif;
+    display: block;
+    width: 50%; 
+    margin: 30px; 
+}
+
+
+#margen1 {
+    margin-right: 68rem;
+}
+
+#margen2 {
+    margin-right: 64rem;
+}
+
+#margen3 {
+    margin-right: 61rem;
+}
+
+#margen4 {
+    margin-right: 80rem;
+}
+
+#margen5 {
+    margin-right: 58rem;
+}
+
+#margen6 {
+    margin-right: 78rem;
+}
+
+#margen7 {
+    margin-right: 72rem;
+}
+
+#cita {
+    margin-right: 61rem;
+    font-size: 23px;
+    text-align: left;
+}
+
+span {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+span:hover,
+cite:hover {
+    color: rgb(118, 222, 231);
+}
+
+a:hover {
+    color: rgb(118, 222, 231);
+}
+
+a {
+    font-family: 'Lato', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#nav {
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 10, 47);
+    margin-right: 88rem;
+    border: 4px solid rgb(1, 10, 47);
+    border-radius: 3px;
+    border-width: 1px;
+    border-block-width: 7px;
+    font-size: 17px;
+    font-family: 'Lato', Arial, sans-serif;
+    display: flex;
+    gap: 27px;
+    list-style-type: square;
+
+}
+#ul-obras {
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 10, 47);
+    border: 4px solid rgb(1, 10, 47);
+    border-radius: 3px;
+    border-width: 6px;
+    border-block-width: 7px;
+    font-size: 17px;
+    font-family: 'Lato', Arial, sans-serif;
+    display: block;
+    width: 50%;
+    margin: 30px;
+
+}
+div footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 10, 47);
+    border: 4px solid rgb(1, 10, 47);
+    border-radius: 3px;
+    border-width: 6px;
+    border-block-width: 7px;
+    font-size: 17px;
+    text-align: left;
+    margin-right: 79rem;
+    font-family: 'Lato', Arial, sans-serif;
+}
